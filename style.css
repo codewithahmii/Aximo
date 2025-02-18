@@ -1,0 +1,662 @@
+.body{
+  background-color: #000; 
+
+}
+.navbar {
+  background-color: #000; 
+  position: fixed;
+  top: 0;
+ width: 100%;
+ z-index: 9999;
+}
+.hero-section{
+  margin-top: 8vh;
+}
+.nav-link {
+  color: #f5f5dc !important; 
+}
+.nav-link:hover {
+  color: #fff !important; 
+}
+.btn-contact {
+  background-color: #c9ff3c; 
+  color: #000; 
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+ border-bottom-right-radius: 3px white;
+ box-shadow: 5px 5px white;
+ width: 15%;
+ padding: 5px;
+
+
+}
+.btn-contact:hover {
+  background-color: #b3e639; 
+  box-shadow: none;
+ 
+}
+@media only screen and (max-width: 600px) {
+  .btn-contact {
+   width: 50%;
+  }
+  
+}
+.unique-h1{
+  margin-top: 100px;
+  font-family: "Syne", sans-serif;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.unique-p{
+ 
+  font-family: "Inter", sans-serif;
+  font-size: 21px;
+  font-weight: bolder;
+}
+.user{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+.user-p{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.whatsapp-button:hover {
+  background-color: #b3e639; 
+  box-shadow: none;
+ 
+}
+.whatsapp-button {
+  margin-top: 10%;
+  background-color: #ccff33; 
+  color: black;
+  border: 1px black;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px white;
+  position: relative;
+  width: 70%;
+  height: 10vh;
+}
+
+ .icon-container {
+  background-color: black; 
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.whatsapp-button .icon-container i {
+  color: white;
+  font-size: 18px;
+  justify-content: end;
+}
+@media only screen and (max-width: 600px) {
+  .whatsapp-button {
+   width: 100%;
+  }
+}
+.hero{
+  border:5px solid white;
+  border-radius: 10px;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero img{
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.1s ease; 
+}
+
+.hero img:hover {
+  transform: scale(1.1); 
+}
+.effective {
+  margin-top: 9%;
+}
+.effective-h1{
+  font-family: "Syne", sans-serif;
+   margin-top: 8%;
+  font-weight: 700;
+  font-size: 70px;
+}
+@media only screen and (max-width: 600px) {
+  .effective-h1{
+   
+    
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
+.card-course{
+  height: 60vh;
+border-radius: 20px;
+  border: 2px solid black;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.card img{
+  width: 15%;
+  
+  margin: 30px;
+
+}
+.card h1{
+  margin-left: 25px;
+  font-family: "Syne", sans-serif;
+}
+.card p{
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.card i{
+  margin-left: 25px;
+}
+.card-course:hover{
+  box-shadow: 5px 5px black;
+  background-color: rgb(191,247,71);
+}
+@media only screen and (max-width: 600px) {
+  .card-course{
+    height: 80vh;
+    margin-top: 10px;
+  }
+}
+hr{
+  margin-top: 50px;
+
+}
+.business h1{
+  font-family: "Syne", sans-serif;
+  font-size: 70px;
+  line-height: 75px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .business h1{
+    font-size: 50px;
+  }
+  }
+.whatsapp{
+  position: relative;
+}
+.arrow {
+  width: 20vw; /* Set the width of the image */
+  position: absolute ; /* Allow for movement with animation */
+  animation: moveBackAndForth 2s infinite ease-in-out;
+right: 0;
+margin-top: -30px;
+
+}
+@media only screen and (max-width: 600px) {
+.arrow{
+  display: none;
+}
+}
+
+
+
+@keyframes moveBackAndForth {
+  0% {
+    transform: translateX(0); 
+  }
+  50% {
+    transform: translateX(10px); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+.video {
+  background-image: url('video-bg-Dyw4c18R.png');
+  height: 70vh;
+  background-size: cover;
+  width: 100%;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+
+.play-button {
+  margin-left: 40%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px 20px;
+    background-color: #bff747;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 black;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 20%;
+    text-align: center; 
+}
+
+.play-button:hover {
+    box-shadow: 5px 5px 0 black;
+    transform: translateY(-2px);
+}
+
+.play-button .icon {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.play-button .icon::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent black;
+}
+.y-link{
+  text-decoration: none;
+  color: #000;
+}
+.work-p p{
+  font-family:"Inter", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.counter-container{
+  margin-top: 100px;
+ 
+  font-family: Arial, sans-serif;
+overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: auto; /* Adjust content to fit within 50% of the viewport height */
+  background-color: #111;
+  color: #a4ff00;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.counter {
+  font-size: 70px;
+  height: 1rem; 
+  color:rgb(191,247,71);
+ font-family:"Syne", sans-serif;
+ font-weight: 700;
+ 
+  
+
+}
+.counter-p {
+  margin: 0; 
+  font-size: 1rem;
+  color: #fff;
+}  
+.slides{
+  background-color: #000;
+  margin-top: 100px;
+  height: 120vh;
+}
+.range{
+font-size: 70px;
+font-weight: 700;
+font-family:"Syne", sans-serif; 
+color: #fff;
+
+}
+.high-quality-main{
+  margin-top: 20%;
+}
+.high-quality{
+  font-size: 50px;
+  font-weight: 700;
+  font-family:"Syne", sans-serif ;
+ color: black;
+ line-height: 75px;
+
+}
+.quality-p{
+  font-size: 15px;
+  font-weight: 400;
+}
+.border{
+  height: 13vh;
+  border: 2px solid black;
+  border-radius:10px;
+}
+.drop-down{
+  border: 2px;
+}
+.drop-menu{
+  border: none;
+}
+
+#dropdown{
+  border: 2px solid black;
+margin: 10px;
+  overflow: none;
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
+
+#dropdown:hover{
+  box-shadow: 5px 5px black;
+  background-color: rgb(191,247,71);
+}
+.dropdown-p{
+  font-size: 18px;
+  color:rgb(121, 41, 41);
+}
+.dropdown-p:hover{
+  color:white;
+}
+#dropdownproject{
+  display: none;
+}
+.clients{
+  font-size: 60px;
+  font-family:"Syne", sans-serif ;
+  font-weight: 700;
+}
+
+.testimonial-card {
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+}
+.testimonial-card:hover{
+
+
+box-shadow: 5px 5px black;
+}
+.testimonial-card h5 {
+  font-weight: bold;
+  font-family:"Syne", sans-serif ;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.stars{
+  font-size: 34px;
+}
+#moving-text {
+  overflow-x: auto;
+  width: 100%;
+  height: 15vh; /* Increased height for better visibility */
+  background-color: white;
+  display: inline-block;
+  white-space: nowrap;
+  display: flex; /* Use flex to align items */
+  align-items: center; 
+  padding: 6vw;/* Vertically center content */
+}
+
+#moving-text::-webkit-scrollbar {
+  display: none;
+}
+
+.con {
+  white-space: nowrap;
+  display: inline-block;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.con img {
+  width: 50px; /* Adjust size as needed */
+  animation: rotate 3s linear infinite; /* Rotation animation */
+}
+
+#moving-text h1 {
+  font-size: 3vw;
+  display: inline-block;
+  background-color: black;
+  color: #BFF747;
+  white-space: nowrap;
+  margin: 0; /* Remove default margins */
+  padding: 5px 10px; /* Add some padding for better spacing */
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.creative{
+  font-size: 60px;
+  font-weight: 700;
+  font-family:"Syne", sans-serif ;
+
+}
+.difficult{
+  border: 5px solid black;
+  border-radius: 10px;
+
+}
+.difficult:hover{
+  transform: scale(1.1); 
+}
+.title-p{
+  font-size: 21px;
+  font-family: "Inter", sans-serif;
+  margin: 7px;
+}
+.title-h1{
+  font-family: "Syne", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  margin: 7px;
+  
+}
+.card-container {
+  position: relative; /* Make sure the card is positioned relative for the icons to be positioned absolutely */
+}
+
+.card-container {
+  position: relative; /* Make sure the card is positioned relative for the icons to be positioned absolutely */
+}
+
+.card-container {
+  position: relative; /* Make sure the card is positioned relative for the icons to be positioned absolutely */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+  position: absolute; /* Absolute positioning to place them at the bottom */
+  bottom: 20px; /* Space from the bottom of the card */
+  left: 50%; /* Center the container horizontally */
+  transform: translateX(-50%); /* Center the icons horizontally */
+  font-size: 30px;
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Initially hidden */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */
+}
+
+.card-container:hover .social-icons {
+  opacity: 1; /* Show icons when card is hovered */
+  visibility: visible; /* Make them visible */
+}
+.social-icons a {
+  text-decoration: none;
+}
+.social-icons a i {
+  display: flex;
+  justify-content: center; /* Center the icon within the link */
+  align-items: center; /* Center the icon vertically */
+  width: 40px; /* Width of the icon circle */
+  height: 40px; /* Height of the icon circle */
+  background-color: black; /* Background color of the icon */
+  color: white; /* Icon color */
+  border-radius: 50%; /* Create circle */
+  font-size: 20px; /* Font size for the icon */
+  text-decoration: none; /* Remove underline from links */
+  /* Center text vertically */
+  margin: 0 5px; /* Space between icons */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.social-icons a i:hover {
+  background-color: #a4ff00; /* Hover effect */
+}
+.highlight {
+  color: #bada55;
+}
+.end-h1{
+  color: white;
+  font-size: 70px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+}
+.end-p{
+color: white;
+font-size: 21px;
+font-family: "inter" sans-serif;
+font-weight: 400;
+}
+.contact-form input, .contact-form textarea {
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+.send-h2{
+  font-family: "Syne", sans-serif;
+  font-size: 15px; 
+  color: #fff;
+  margin-top: 20px;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+  color: #fff;
+}
+.contact-form textarea:active {
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #bada55;
+  color: #000;
+  border-radius: 2%;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  background-color: #000;
+  color: #f5f5dc;
+  text-align: center;
+  padding-top: 20px;
+}
+.social-icon {
+  color: #f5f5dc;
+  font-size: 24px;
+  margin: 0 10px;
+  padding: 10px;
+  border: 2px solid #f5f5dc;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.social-icon:hover{
+  background-color: #a4ff00;
+}
+.right{
+  font-size: 30px;
+}
+.right-button:hover {
+  background-color: #b3e639; 
+  box-shadow: none;
+ 
+}
+.right-button {
+  margin-top: 10%;
+  background-color: #ccff33; 
+  color: black;
+  border: 1px black;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  box-shadow: 5px 5px white;
+  position: relative;
+  width: 90%;
+  height: 10vh;
+  margin-top: -5px;
+}
